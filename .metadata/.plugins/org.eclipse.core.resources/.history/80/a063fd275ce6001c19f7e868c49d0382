@@ -1,0 +1,16 @@
+package o05.productDao;
+
+import java.sql.Connection;
+import java.util.List;
+
+import classes.Product;
+
+public interface IProductDao {
+
+	List<Product> findAll(Connection cnx);
+
+//	List<Product> findAll(int page, int maxByPage, Connection cnx);
+
+	List<Product> findByDescription(String search, Connection cnx);
+
+}

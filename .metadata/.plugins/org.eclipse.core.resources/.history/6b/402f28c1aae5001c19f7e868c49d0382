@@ -1,0 +1,24 @@
+package o04.jdbc;
+
+public class O1CreateTable {
+
+	/*
+	 * 
+	 * Une base de données relationnelle est une base de données (ensemble de tables) + des
+	 * éventuelles relations entre les tables
+	 * relations :
+	 * - one-to-one : un objet de type A est associé à un et un seul objet de type B et
+	 * inversement.
+	 * Par exemple : un crâne est associé à un seul cerveau. 
+	 * - one-to-many / many-to-one : 
+	 * - many-to-many :
+	 * 
+	 * Méthodologie pour comprendre les bases de données : technique/méthode Merise
+	 * 
+	 */
+	public static void main(String[] args) {
+		
+
+	}
+
+}

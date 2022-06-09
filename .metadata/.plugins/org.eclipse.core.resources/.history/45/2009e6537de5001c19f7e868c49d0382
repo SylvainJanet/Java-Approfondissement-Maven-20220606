@@ -1,0 +1,34 @@
+package o02.javaSwing;
+
+import javax.swing.JFrame;
+
+public class FirstWindow extends JFrame {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * 
+		 * Swing c'est une API incluse dans Java qui permet des interface graphiques
+		 * 
+		 * Dans un premier temps, Java proposait l'API AWT, dans le package java.awt
+		 * 
+		 * AWT utilisait beacoup de fonctions de l'OS pour générer l'afficher
+		 * -> problème de dépendance à l'OS, surtout valable pour la taille et le positionnement
+		 * des éléments
+		 * 
+		 * Swing a été conçu pour palier à ce problème en étant écrite entièrement en java
+		 * et en utilisant au minimum les fonctions de l'OS
+		 * Quelques fenêtres et boîtes de dialogues sont en relation avec l'OS
+		 * 
+		 * Tous les éléments swing font partie d'un package : javax.swing
+		 * Certains éléments de AWT sont encore utilisés
+		 * 
+		 * La classe de base d'une application est la classe JFrame.
+		 * (en réalité il y a aussi JWindow et JApplet pour les webapp)
+		 * 
+		 */
+		
+		FirstWindow firstWindow = new FirstWindow();
+		
+	}
+}

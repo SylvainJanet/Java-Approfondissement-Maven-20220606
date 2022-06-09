@@ -1,0 +1,7 @@
+package o07.genericite.classegen;
+
+import o07.genericite.interfacegen.IGenericDao;
+
+public class GenericDao implements IGenericDao<T> {
+
+}

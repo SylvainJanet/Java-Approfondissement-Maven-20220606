@@ -1,0 +1,18 @@
+package o03.threads;
+
+public class App3 {
+
+	public static void main(String[] args) {
+		/*
+		 * 
+		 * Un thread est une unité d'exécution faisant partie d'un programme
+		 * Cette unité fonctionne de façon autonome aux autres threads.
+		 * 
+		 * Un programme peut effectuer plusieurs opérations en même temps
+		 * 
+		 * 
+		 */
+
+	}
+
+}

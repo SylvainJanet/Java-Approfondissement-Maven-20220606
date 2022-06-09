@@ -1,0 +1,11 @@
+package o07.genericite;
+
+/*
+ * 
+ * Pour indiquer qu'une classe ou une interface est générique, il faut ajouter la liste des
+ * types génériques entre < >
+ * 
+ */
+public class GenericClass {
+
+}

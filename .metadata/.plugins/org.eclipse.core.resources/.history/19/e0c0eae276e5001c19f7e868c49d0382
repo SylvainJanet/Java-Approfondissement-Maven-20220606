@@ -1,0 +1,16 @@
+package o01.console;
+
+import java.util.List;
+
+import classes.Product;
+import o01.console.tools.InitialData;
+
+public class App1 {
+
+	private static List<Product> productList;
+
+	public static void main(String[] args) {
+		productList = InitialData.productList;
+	}
+
+}

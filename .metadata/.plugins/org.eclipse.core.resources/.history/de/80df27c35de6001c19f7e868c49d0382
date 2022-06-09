@@ -1,0 +1,5 @@
+package o05.productDao;
+
+public class ProductDBDao {
+
+}

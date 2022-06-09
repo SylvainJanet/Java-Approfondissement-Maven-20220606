@@ -1,0 +1,31 @@
+package o08.fichiers;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.List;
+
+import classes.Product;
+
+public class CsvTools {
+
+	public static void toCsv(String filePath, List<Product> list, String separator) throws IOException {
+		try (BufferedWriter bw = new BufferedWriter(new FileWriter(filePath))) {
+
+			bw.write("id" + separator + "description" + separator + "prix");
+			bw.newLine();
+			for (Product product : list) {
+				String line = product.getId() + separator + product.getDescription() + separator + product.getPrice();
+				bw.write(line);
+				bw.newLine();
+			}
+		}
+
+	}
+
+	public static List<Product> fromCsv(String filePath, String separator) {
+
+		return null;
+	}
+
+}

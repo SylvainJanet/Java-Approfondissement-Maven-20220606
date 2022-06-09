@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Admin stagiaire.DESKTOP-8967908\Desktop\MesFormations\FormationJavaApprofondissement\work\2022_06_06\Formation20220606\exercice"/>
+			<item value="C:\Users\Admin stagiaire.DESKTOP-8967908\Desktop\MesFormations\FormationJavaApprofondissement\work\2022_06_06\Formation20220606\FormationJavaApprofondissement\src\o10\maven\App10.java"/>
+			<item value="C:\Users\Admin stagiaire.DESKTOP-8967908\Desktop\MesFormations\FormationJavaApprofondissement\work\2022_06_06\Formation20220606\simple-artifact\target"/>
+			<item value="C:\Users\Admin stagiaire.DESKTOP-8967908\Desktop\MesFormations\FormationJavaApprofondissement\work\2022_06_06\Formation20220606\simple-artifact"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="exercice.dao"/>
+			<item value="exercice.modele"/>
+			<item value="sqdfqdsf.sqdfqsdf"/>
+		</list>
+		<list key="groupId">
+			<item value="fr.dawan.cours"/>
+			<item value="sqdfqdsf"/>
+		</list>
+		<list key="artifactId">
+			<item value="exercice-dao"/>
+			<item value="exercice-modele"/>
+			<item value="sqdfqsdf"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="fr.dawan.cours"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="exercice-dao"/>
+			<item value="exercice"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="exercice-dao"/>
+			<item value="exercice-modele"/>
+			<item value="mon-module-enfant"/>
+			<item value="child-two"/>
+			<item value="child-one"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.MavenProjectSelectionDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="450"/>
+		<item key="x" value="-1159"/>
+		<item key="y" value="211"/>
+	</section>
+</section>

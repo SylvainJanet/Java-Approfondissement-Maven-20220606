@@ -1,0 +1,17 @@
+package o03.threads.swing;
+
+public class temp {
+	public static void main(String[] args) {
+		for (int i = 0; i < 2; i++) {
+			System.out.println("Attente des résultats en base - " + i);
+			try {
+				Thread.sleep(3000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		for (int i = 0; i < 20; i++) {
+			System.out.println("Je suis à l'écoute du clic utilisateur - " + i);
+		}
+	}
+}

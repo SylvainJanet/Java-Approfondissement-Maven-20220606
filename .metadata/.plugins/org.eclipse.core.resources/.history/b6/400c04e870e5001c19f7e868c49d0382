@@ -1,0 +1,11 @@
+package classes;
+
+public class CartLine {
+
+	private Product product;
+	private int qty;
+	
+	public double getTotal() {
+		return 0;
+	}
+}

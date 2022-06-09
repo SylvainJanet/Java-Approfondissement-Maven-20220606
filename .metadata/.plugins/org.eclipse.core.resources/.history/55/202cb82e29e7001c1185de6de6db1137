@@ -1,0 +1,49 @@
+package o10.maven;
+
+public class App10 {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * 
+		 * Maven est un outil de build qui permet d'automatiser la gestion et la construction d'un
+		 * projet Java
+		 * 
+		 * On peut l'utiliser en ligne de commande mais il est également intégré nativement
+		 * dans STS et dans d'autres IDE.
+		 * 
+		 * Permet d'automatiser (et de paramétrer) :
+		 * - la création d'un projet, avec une structure de dossiers normalisée, commune avec tous les
+		 * projets Maven
+		 * - le lancement des tests
+		 * - le déploiement du projet
+		 * 
+		 * Permet également de gérer les dépendances du projet
+		 * 
+		 * Pour l'instant, une dépendance est rajoutée à la main et dépend de la structure des fichiers
+		 * de notre machine/
+		 * - soucis lorsqu'on doit rajouter plusiers dépendances, notamment lorsqu'il y a de
+		 * l'interdépendance, c'est à dire que ces dépendances dépendent elles-même d'autres dépendances
+		 * On a beaucoup de dépendances à gérer, et les problèmes s'accentuent quand on prend en 
+		 * considération les versions de ces dépendances
+		 * - soucis lors du partage de notre projet. Si les dépendances ne sont pas stockées au même
+		 * endroit dans la machine des collègues, ça va poser problème. Partager les dépendances en
+		 * même temps que le projet n'est pas une bonne solution non plus, on partagerait une quantité
+		 * énorme de fichiers qui ne sont pas le contenu de notre travail.
+		 * 
+		 * La seule chose à configurer pour le fonctionnement de Maven pour un projet est un fichier
+		 * pom.xml : fichier de configuration
+		 * 
+		 * File -> New -> Maven Project
+		 * Cocher la case "skip archetype selection"
+		 * Créer un projet simple
+		 * Modifier le build path, le compilateur pour les mettre à la bonne version du jdk
+		 * Clic droit JRE system library -> Properties -> mettre le bon jdk
+		 * Clic droit projet -> properties -> Java Compiler -> compliance level 1.8
+		 */
+		
+
+		
+	}
+
+}

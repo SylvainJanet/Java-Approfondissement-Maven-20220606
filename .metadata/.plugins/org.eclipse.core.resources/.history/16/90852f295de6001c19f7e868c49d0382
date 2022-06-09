@@ -1,0 +1,17 @@
+package o05.productDao;
+
+public class App5 {
+
+	public static void main(String[] args) {
+		/*
+		 *
+		 * Un DAO (data access object) est un objet qui est responsable de l'accès à une DB
+		 * C'est lui qui va ouvrir la connexion, créer les requêtes, les envoyer, gérer
+		 * les ResultSet si il y en a.
+		 * Il fait permettre le lien entre notre application et la base de données
+		 * 
+		 */
+
+	}
+
+}

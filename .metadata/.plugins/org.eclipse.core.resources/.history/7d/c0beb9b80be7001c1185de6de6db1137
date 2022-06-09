@@ -1,0 +1,6 @@
+package o07.genericite.classegen;
+
+public class PersonneDaoWithGenDao extends GenericDao<Personne> implements IPersonneDao {
+	
+
+}

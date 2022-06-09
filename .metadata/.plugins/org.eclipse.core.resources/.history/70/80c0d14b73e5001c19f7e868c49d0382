@@ -1,0 +1,62 @@
+package classes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cart {
+	private List<CartLine> lines;
+	
+	public Cart() {
+		super();
+		this.lines = new ArrayList<>();
+	}
+
+	public Cart(List<CartLine> lines) {
+		super();
+		this.lines = lines;
+	}
+
+	public List<CartLine> getLines() {
+		return lines;
+	}
+
+	public void setLines(List<CartLine> lines) {
+		this.lines = lines;
+	}
+
+	public double getTotal() {
+		double res = 0;
+		for (CartLine cl: lines) {
+			res += cl.getTotal();
+		}
+		return res;
+	}
+	
+	public void addLine(CartLine line) {
+		// est ce que line.getProduct() est déjà
+		// dans la liste ?
+		int index = lines.indexOf(line);
+		// renvoie le premier indice d'une ligne l
+		// telle que l.equals(line)
+		if (index == -1) {
+			// le produit n'est pas dans la liste
+			lines.add(line);
+		} else {
+			int newQty = lines.get(index).getQty() + line.getQty();
+			lines.get(index).setQty(newQty);
+		}
+		
+	}
+	
+	public void removeLine(CartLine line) {
+		
+	}
+	
+	public int count() {
+		int res = 0;
+		for (CartLine cl: lines) {
+			res += cl.getQty();
+		}
+		return res;
+	}
+}

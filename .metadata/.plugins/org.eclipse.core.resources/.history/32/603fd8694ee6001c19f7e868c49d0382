@@ -1,0 +1,23 @@
+package o04.jdbc;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import o04.jdbc.tools.DbConnection;
+
+public class O4Update {
+
+	public static void main(String[] args) {
+		
+		// pour les ressources qui nécessitent d'être fermées
+		// (pour les objets qui implémentent l'interface Closeable ou équivalent)
+		// on peut utiliser le ContextManager pour fermer la ressource pour nous :
+		
+		try (Connection cnx = DbConnection.getConnection()) {
+			// ...
+		} catch (ClassNotFoundException | SQLException | IOException e) {
+			e.printStackTrace();
+		} 
+	}
+}

@@ -1,0 +1,22 @@
+package o04.jdbc;
+
+import java.sql.Connection;
+
+import o04.jdbc.tools.DbConnection;
+import o04.jdbc.tools.DisplayDbValues;
+
+public class O5Delete {
+
+	public static void main(String[] args) {
+		try (Connection cnx = DbConnection.getConnection()) {
+
+			System.out.println("_____ DB before _____");
+			DisplayDbValues.printPersonne(cnx);
+
+			System.out.println("_____ DB after (" + nbrLignesModifiees + " lines updated) _____");
+			DisplayDbValues.printPersonne(cnx);
+		}
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package o01.console.tools;
+
+import java.util.List;
+
+import classes.Cart;
+import classes.Product;
+
+public class DisplayConsoleTools {
+
+	public static void displayProducts(List<Product> productList) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void displayMenu(Cart cart) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

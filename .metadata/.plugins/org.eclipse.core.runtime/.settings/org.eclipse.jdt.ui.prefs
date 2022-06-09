@@ -1,0 +1,11 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="javax.swing.JFrame"><rhs name\="o02.javaSwing.FirstWindow"/></lhs><lhs name\="javax.swing.WindowConstants"><rhs name\="o02.javaSwing.FirstWindow"/></lhs><lhs name\="javax.accessibility.Accessible"><rhs name\="o02.javaSwing.FirstWindow"/></lhs><lhs name\="javax.swing.RootPaneContainer"><rhs name\="o02.javaSwing.FirstWindow"/></lhs><lhs name\="javax.swing.TransferHandler$HasGetTransferHandler"><rhs name\="o02.javaSwing.FirstWindow"/></lhs><lhs name\="java.awt.Frame"><rhs name\="o02.javaSwing.FirstWindow"/></lhs><lhs name\="java.awt.MenuContainer"><rhs name\="o02.javaSwing.FirstWindow"/></lhs><lhs name\="java.awt.Window"><rhs name\="o02.javaSwing.FirstWindow"/></lhs><lhs name\="java.awt.Container"><rhs name\="o02.javaSwing.FirstWindow"/></lhs><lhs name\="java.awt.Component"><rhs name\="o02.javaSwing.FirstWindow"/></lhs><lhs name\="java.awt.image.ImageObserver"><rhs name\="o02.javaSwing.FirstWindow"/></lhs><lhs name\="o02.javaSwing.FirstWindow"><rhs name\="o02.javaSwing.FirstWindow"/></lhs><lhs name\="java.lang.Enum"><rhs name\="java.awt.Dialog$ModalityType"/></lhs><lhs name\="o07.genericite.GenericClass"><rhs name\="o07.genericite.GenericClass"/></lhs><lhs name\="java.lang.Readable"><rhs name\="java.io.FileReader"/></lhs><lhs name\="java.io.Closeable"><rhs name\="java.io.FileReader"/></lhs><lhs name\="java.lang.AutoCloseable"><rhs name\="java.io.FileReader"/></lhs><lhs name\="java.io.Reader"><rhs name\="java.io.FileReader"/></lhs></history>
+content_assist_number_of_computers=16
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=20
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

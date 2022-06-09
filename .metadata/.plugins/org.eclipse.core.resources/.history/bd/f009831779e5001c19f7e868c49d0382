@@ -1,0 +1,36 @@
+package o01.console.tools;
+
+import java.util.List;
+
+import classes.Cart;
+import classes.Product;
+
+public class DisplayConsoleTools {
+
+	public static void displayProducts(List<Product> productList) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void displayMenu(Cart cart) {
+		System.out.println("Menu_____");
+		System.out.println("1 - Ajouter au panier");
+		System.out.println("2 - Supprimer un produit du panier");
+		System.out.println("3 - Afficher le panier (" + cart.count() + " articles)");
+		System.out.println("4 - Quitter");
+		
+	}
+
+	public static void displayCart(Cart cart) {
+		if (cart.count() == 0) {
+			System.out.println("Votre panier est vide !");
+		} else {
+			System.out.println("Panier : ");
+			for (Product p : cart) {
+				System.out.println(p);
+			}
+		}
+		
+	}
+
+}

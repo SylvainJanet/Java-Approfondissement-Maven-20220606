@@ -1,0 +1,5 @@
+package o07.genericite.classegen;
+
+public class ProductDaoWithGenDao {
+
+}

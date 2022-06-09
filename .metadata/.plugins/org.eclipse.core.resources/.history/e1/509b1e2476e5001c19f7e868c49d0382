@@ -1,0 +1,11 @@
+package o01.console.tools;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import classes.Product;
+
+public class InitialData {
+
+	public static List<Product> productList = new ArrayList<>();
+}

@@ -1,0 +1,43 @@
+package o05.productDao;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.List;
+
+import classes.Product;
+import o04.jdbc.tools.DbConnection;
+
+public class App5 {
+
+	public static void main(String[] args) {
+		/*
+		 *
+		 * Un DAO (data access object) est un objet qui est responsable de l'accès à une
+		 * DB C'est lui qui va créer les requêtes, les envoyer, gérer les ResultSet si
+		 * il y en a. Il fait permettre le lien entre notre application et la base de
+		 * données
+		 * 
+		 */
+
+		// Dans le code, on va utiliser ce DAO de la manière suivante :
+
+		try (Connection cnx = DbConnection.getConnection()) {
+			System.out.println("TEST DE PRODUCT DAO");
+			System.out.println("__________");
+
+			ProductDao dao = new ProductDao();
+
+			System.out.println("_____ findAll _____");
+			List<Product> liste = dao.findAll(cnx);
+			for (Product p : liste) {
+				System.out.println(p);
+			}
+
+		} catch (ClassNotFoundException | SQLException | IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

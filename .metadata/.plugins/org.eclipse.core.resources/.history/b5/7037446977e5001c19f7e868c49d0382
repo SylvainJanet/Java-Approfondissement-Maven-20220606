@@ -1,0 +1,22 @@
+package o01.console;
+
+import java.util.List;
+import java.util.Scanner;
+
+import classes.Cart;
+import classes.Product;
+import o01.console.tools.InitialData;
+
+public class App1 {
+
+	private static List<Product> productList;
+	private static Cart cart = new Cart();
+
+	public static void main(String[] args) {
+		productList = InitialData.productList;
+
+		Scanner sc = new Scanner(System.in);
+
+	}
+
+}

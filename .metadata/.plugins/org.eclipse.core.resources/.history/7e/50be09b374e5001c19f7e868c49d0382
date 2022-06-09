@@ -1,0 +1,12 @@
+package o01.console;
+
+import classes.Product;
+
+public class App1 {
+
+	public static void main(String[] args) {
+//		Product p = new Product();
+		String maChaine = "Ma" + "Chaine"
+	}
+
+}

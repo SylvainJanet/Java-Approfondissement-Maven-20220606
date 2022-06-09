@@ -1,0 +1,42 @@
+package o09.reflexion;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.lang.reflect.Field;
+import java.util.List;
+
+import classes.Product;
+
+public class CsvToolsGen {
+
+	public static <T> void toCsv(String filePath, List<T> productList, String separator, Class<T> clazz) throws IOException {
+		try (BufferedWriter bw = new BufferedWriter(new FileWriter(filePath))) {
+
+			// première ligne : les noms des champs séparés par le separator
+			String firstLine = "";
+			// dans la pratique : utiliser StringBuilder (une classe peut avoir énormément de champs)
+			
+			Field[] fields = clazz.getDeclaredFields();
+			for (Field field : fields) {
+				firstLine += field.getName();
+				firstLine += separator;
+			}
+			
+			bw.write(firstLine);
+			bw.newLine();
+//			for (Product product : list) {
+//				String line = product.getId() + separator + product.getDescription() + separator + product.getPrice();
+//				bw.write(line);
+//				bw.newLine();
+//			}
+		}
+
+	}
+
+	public static <T> List<T> fromCsv(String filePath, String separator, Class<T> clazz) {
+
+		return null;
+	}
+
+}

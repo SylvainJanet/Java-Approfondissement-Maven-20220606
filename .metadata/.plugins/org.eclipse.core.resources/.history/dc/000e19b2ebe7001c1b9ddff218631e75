@@ -1,0 +1,12 @@
+package exercice.dao;
+
+public class App {
+
+	public static void main(String[] args) {
+		// Create the tables in DB
+		
+		
+
+	}
+
+}

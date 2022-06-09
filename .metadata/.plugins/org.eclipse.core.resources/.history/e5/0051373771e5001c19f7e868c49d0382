@@ -1,0 +1,23 @@
+package classes;
+
+import java.util.List;
+
+public class Cart {
+	private List<CartLine> lines;
+	
+	public double getTotal() {
+		return 0;
+	}
+	
+	public void addLine(CartLine line) {
+		
+	}
+	
+	public void removeLine(CartLine line) {
+		
+	}
+	
+	public int count() {
+		return 0;
+	}
+}

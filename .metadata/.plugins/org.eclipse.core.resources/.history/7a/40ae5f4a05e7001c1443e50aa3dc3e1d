@@ -1,0 +1,22 @@
+package o07.genericite;
+
+import java.util.List;
+
+public class GenericFunctions {
+
+	public static void displayList(List<?> liste) {
+		// ? sur un argument de type générique : ça peut être n'importe quoi
+		// avantage : on peut utiliser n'importe quelle liste
+		// inconvénient : on va traiter tous les objets de la liste comme des instances
+		// d'objets
+
+		if (liste.size() == 0) {
+			System.out.println("Liste vide");
+		} else {
+			for (Object string : liste) {
+				System.out.println(string);
+			}
+		}
+
+	}
+}

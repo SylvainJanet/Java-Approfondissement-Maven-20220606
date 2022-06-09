@@ -1,0 +1,18 @@
+package o07.genericite;
+
+import java.util.List;
+
+public class GenericFunctions {
+
+	public static void displayList(List<String> liste) {
+
+		if (liste.size() == 0) {
+			System.out.println("Liste vide");
+		} else {
+			for (String string : liste) {
+				System.out.println(string);
+			}
+		}
+
+	}
+}

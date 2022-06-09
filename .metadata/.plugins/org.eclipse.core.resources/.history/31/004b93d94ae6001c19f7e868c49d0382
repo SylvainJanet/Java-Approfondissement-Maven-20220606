@@ -1,0 +1,21 @@
+package o04.jdbc;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import o04.jdbc.tools.DbConnection;
+
+public class O3Read {
+
+	public static void main(String[] args) {
+		
+		Connection cnx = null;
+		try {
+			cnx = DbConnection.getConnection();
+		} catch (ClassNotFoundException | SQLException | IOException e) {
+			e.printStackTrace();
+		}
+			
+	}
+}

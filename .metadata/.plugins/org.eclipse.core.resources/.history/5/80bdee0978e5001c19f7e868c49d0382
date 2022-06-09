@@ -1,0 +1,14 @@
+package o01.console.tools;
+
+import java.util.List;
+
+import classes.Product;
+
+public class DisplayConsoleTools {
+
+	public static void displayProducts(List<Product> productList) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

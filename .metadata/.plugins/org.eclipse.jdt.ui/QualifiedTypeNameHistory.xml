@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="classes.Product"/>
+    <fullyQualifiedTypeName name="javax.naming.InitialContext"/>
+    <fullyQualifiedTypeName name="o01.console.tools.DisplayConsoleTools"/>
+    <fullyQualifiedTypeName name="classes.Cart"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="o02.javaSwing.FirstWindow"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.awt.Dialog"/>
+    <fullyQualifiedTypeName name="java.awt.Dialog.ModalityType"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="o04.jdbc.tools.DisplayDbValues"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="o04.jdbc.tools.DbConnection"/>
+    <fullyQualifiedTypeName name="o05.productDao.ProductDao"/>
+    <fullyQualifiedTypeName name="o05.productDao.IProductDao"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="o07.genericite.GenericClass"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="o01.console.tools.InitialData"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="o07.genericite.GenericFunctions"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
+    <fullyQualifiedTypeName name="ij.ImagePlus"/>
+    <fullyQualifiedTypeName name="ij.IJ"/>
+    <fullyQualifiedTypeName name="child.two.Tools"/>
+</qualifiedTypeNameHistroy>

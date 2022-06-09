@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="exercice.console.AppTest" time="0.009" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Admin stagiaire.DESKTOP-8967908\Desktop\MesFormations\FormationJavaApprofondissement\work\2022_06_06\Formation20220606\exercice\exercice-console\target\test-classes;C:\Users\Admin stagiaire.DESKTOP-8967908\Desktop\MesFormations\FormationJavaApprofondissement\work\2022_06_06\Formation20220606\exercice\exercice-console\target\classes;C:\Users\Admin stagiaire.DESKTOP-8967908\Desktop\MesFormations\FormationJavaApprofondissement\work\2022_06_06\Formation20220606\exercice\exercice-tools\target\exercice-tools-0.0.1-SNAPSHOT.jar;C:\Users\Admin stagiaire.DESKTOP-8967908\.m2\repository\org\postgresql\postgresql\42.3.1\postgresql-42.3.1.jar;C:\Users\Admin stagiaire.DESKTOP-8967908\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Admin stagiaire.DESKTOP-8967908\Desktop\MesFormations\FormationJavaApprofondissement\work\2022_06_06\Formation20220606\exercice\exercice-modele\target\exercice-modele-0.0.1-SNAPSHOT.jar;C:\Users\Admin stagiaire.DESKTOP-8967908\Desktop\MesFormations\FormationJavaApprofondissement\work\2022_06_06\Formation20220606\exercice\exercice-metier\target\exercice-metier-0.0.1-SNAPSHOT.jar;C:\Users\Admin stagiaire.DESKTOP-8967908\Desktop\MesFormations\FormationJavaApprofondissement\work\2022_06_06\Formation20220606\exercice\exercice-dao\target\exercice-dao-0.0.1-SNAPSHOT.jar;C:\Users\Admin stagiaire.DESKTOP-8967908\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Admin stagiaire.DESKTOP-8967908\AppData\Local\Temp\surefire9212496735305356793\surefirebooter5411187194547812299.jar C:\Users\Admin stagiaire.DESKTOP-8967908\AppData\Local\Temp\surefire9212496735305356793 2022-06-09T13-48-38_579-jvmRun1 surefire2361418233264405071tmp surefire_47941652481169354301tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Admin stagiaire.DESKTOP-8967908\Desktop\MesFormations\FormationJavaApprofondissement\work\2022_06_06\Formation20220606\exercice\exercice-console\target\test-classes;C:\Users\Admin stagiaire.DESKTOP-8967908\Desktop\MesFormations\FormationJavaApprofondissement\work\2022_06_06\Formation20220606\exercice\exercice-console\target\classes;C:\Users\Admin stagiaire.DESKTOP-8967908\Desktop\MesFormations\FormationJavaApprofondissement\work\2022_06_06\Formation20220606\exercice\exercice-tools\target\exercice-tools-0.0.1-SNAPSHOT.jar;C:\Users\Admin stagiaire.DESKTOP-8967908\.m2\repository\org\postgresql\postgresql\42.3.1\postgresql-42.3.1.jar;C:\Users\Admin stagiaire.DESKTOP-8967908\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Admin stagiaire.DESKTOP-8967908\Desktop\MesFormations\FormationJavaApprofondissement\work\2022_06_06\Formation20220606\exercice\exercice-modele\target\exercice-modele-0.0.1-SNAPSHOT.jar;C:\Users\Admin stagiaire.DESKTOP-8967908\Desktop\MesFormations\FormationJavaApprofondissement\work\2022_06_06\Formation20220606\exercice\exercice-metier\target\exercice-metier-0.0.1-SNAPSHOT.jar;C:\Users\Admin stagiaire.DESKTOP-8967908\Desktop\MesFormations\FormationJavaApprofondissement\work\2022_06_06\Formation20220606\exercice\exercice-dao\target\exercice-dao-0.0.1-SNAPSHOT.jar;C:\Users\Admin stagiaire.DESKTOP-8967908\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Admin stagiaire.DESKTOP-8967908"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_271\jre"/>
+    <property name="basedir" value="C:\Users\Admin stagiaire.DESKTOP-8967908\Desktop\MesFormations\FormationJavaApprofondissement\work\2022_06_06\Formation20220606\exercice\exercice-console"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin stagiaire.DESKTOP-8967908\AppData\Local\Temp\surefire9212496735305356793\surefirebooter5411187194547812299.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_271-b09"/>
+    <property name="user.name" value="Admin stagiaire"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Admin stagiaire.DESKTOP-8967908\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin stagiaire.DESKTOP-8967908\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_271"/>
+    <property name="user.dir" value="C:\Users\Admin stagiaire.DESKTOP-8967908\Desktop\MesFormations\FormationJavaApprofondissement\work\2022_06_06\Formation20220606\exercice\exercice-console"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_271\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Admin stagiaire.DESKTOP-8967908/Downloads/sts-4.9.0.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin/server;C:/Users/Admin stagiaire.DESKTOP-8967908/Downloads/sts-4.9.0.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\bin;C:\Program Files\Oracle\VirtualBox;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\dotnet\;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Maven\apache-maven-3.6.1\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Steam;C:\Program Files\Java\jdk-11.0.2\bin;C:\Program Files\Java\jdk-11.0.2\bin\java;C:\Users\Admin stagiaire.DESKTOP-8967908\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Admin stagiaire.DESKTOP-8967908\AppData\Local\Programs\Python\Python39\;C:\Users\Admin stagiaire.DESKTOP-8967908\AppData\Local\Microsoft\WindowsApps;C:\Users\Admin stagiaire.DESKTOP-8967908\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Admin stagiaire.DESKTOP-8967908\.dotnet\tools;C:\Users\Admin stagiaire.DESKTOP-8967908\AppData\Local\GitHubDesktop\bin;C:\Users\Admin stagiaire.DESKTOP-8967908\AppData\Roaming\npm;C:\Maven\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_271\bin;C:\gecko;C:\Users\Admin stagiaire.DESKTOP-8967908\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\Admin stagiaire.DESKTOP-8967908\Downloads\sts-4.9.0.RELEASE;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.271-b09"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testApp" classname="exercice.console.AppTest" time="0.001"/>
+</testsuite>

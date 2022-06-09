@@ -1,0 +1,46 @@
+package classes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cart {
+	private List<CartLine> lines;
+	
+	public Cart() {
+		super();
+		this.lines = new ArrayList<>();
+	}
+
+	public Cart(List<CartLine> lines) {
+		super();
+		this.lines = lines;
+	}
+
+	public List<CartLine> getLines() {
+		return lines;
+	}
+
+	public void setLines(List<CartLine> lines) {
+		this.lines = lines;
+	}
+
+	public double getTotal() {
+		double res = 0;
+		for (CartLine cl: lines) {
+			res+= cl.getTotal();
+		}
+		return res;
+	}
+	
+	public void addLine(CartLine line) {
+		
+	}
+	
+	public void removeLine(CartLine line) {
+		
+	}
+	
+	public int count() {
+		return 0;
+	}
+}

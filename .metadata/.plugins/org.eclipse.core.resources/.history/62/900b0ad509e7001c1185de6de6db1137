@@ -1,0 +1,12 @@
+package o07.genericite.interfacegen;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.List;
+
+import classes.Personne;
+import classes.Product;
+
+public interface IPersonneDao { 
+
+}

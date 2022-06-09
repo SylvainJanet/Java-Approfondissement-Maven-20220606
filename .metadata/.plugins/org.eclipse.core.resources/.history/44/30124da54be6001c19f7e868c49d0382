@@ -1,0 +1,25 @@
+package o04.jdbc;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import o04.jdbc.tools.DbConnection;
+
+public class O3Read {
+
+	public static void main(String[] args) {
+		
+		Connection cnx = null;
+		try {
+			cnx = DbConnection.getConnection();
+			
+			List<Personne> liste = new ArrayList<>();
+		} catch (ClassNotFoundException | SQLException | IOException e) {
+			e.printStackTrace();
+		}
+			
+	}
+}

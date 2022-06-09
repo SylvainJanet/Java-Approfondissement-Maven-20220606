@@ -1,0 +1,25 @@
+package o10.maven;
+
+public class App10 {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * 
+		 * Maven est un outil de build qui permet d'automatiser la gestion et la construction d'un
+		 * projet Java
+		 * 
+		 * On peut l'utiliser en ligne de commande mais il est également intégré nativement
+		 * dans STS et dans d'autres IDE.
+		 * 
+		 * Permet d'automatiser :
+		 * - la création d'un projet, avec une structure de dossiers normalisée, commune avec tous les
+		 * projets Maven
+		 * - le lancement des tests
+		 * 
+		 */
+
+		String truc = 3;
+	}
+
+}

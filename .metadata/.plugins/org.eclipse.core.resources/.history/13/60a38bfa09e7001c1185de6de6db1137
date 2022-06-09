@@ -1,0 +1,19 @@
+package o07.genericite.interfacegen;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.List;
+
+import classes.Product;
+
+public interface IProductDao {
+	List<Product> findAll(Connection cnx) throws SQLException;
+	List<Product> findAll(int page, int maxByPage, Connection cnx) throws SQLException;
+	Product findById(long id, Connection cnx) throws SQLException; 
+	Product insert(Product p, Connection cnx) throws SQLException; 
+	Product update(Product p, Connection cnx) throws SQLException; 
+	int delete(long id, Connection cnx) throws SQLException; 
+	long count(Connection cnx) throws SQLException; 
+
+	List<Product> findByDescription(String search, Connection cnx) throws SQLException;
+}

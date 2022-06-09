@@ -1,0 +1,38 @@
+package o09.reflexion;
+
+import java.lang.reflect.Field;
+
+import classes.Product;
+
+public class App9 {
+
+	
+	public static void main(String[] args) {
+		
+		/*
+		 * 
+		 * La réflexion est un concept de POO qui permet d'obtenir des informations structurelles
+		 * sur un type de données. Par exemple, connaître les attributs
+		 * 
+		 * Ces informations sont stockées dans un objet de type Class.
+		 * Ce type "Class" est générique, il fonctionne pour n'importe quel type d'objet
+		 * 
+		 * Il utilise java.lang
+		 * 
+		 */
+		
+		System.out.println("_____ getDeclaredFields _____");
+		Class<Product> metadata = Product.class;
+		
+		Product product = new Product(1,"Ma description",50);
+		
+		Field[] fields = metadata.getDeclaredFields();
+		for (Field field : fields) {
+			System.out.println(field);
+			System.out.println(field.getName());
+			
+			field.get(product);
+		}
+		
+	}
+}

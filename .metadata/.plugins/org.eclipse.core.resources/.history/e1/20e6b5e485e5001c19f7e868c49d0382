@@ -1,0 +1,64 @@
+package o02.javaSwing;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class MainWindow extends JFrame {
+
+	private JPanel contentPane;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					MainWindow frame = new MainWindow();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public MainWindow() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel lblPressButton = new JLabel("Appuyez sur le bouton");
+		lblPressButton.setBounds(64, 88, 132, 14);
+		contentPane.add(lblPressButton);
+		
+		JButton btnDisplayMessage = new JButton("Cliquez ici");
+		// ActionListener est une interface
+		// pour créer un écouteur d'évenement qui doit l'implémenter, on devrait créer une classe
+		// implémenter la méthode, et l'instancier dans les lignes de code qui suivent
+		// On peut utiliser une classe anonyme, où on décrit une classe sans la créer, on créé directement
+		// l'instance de la classe.
+		btnDisplayMessage.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				// code executé lorsque l'évenement se produit
+				// cf le design pattern Publisher/Listener
+			}
+		});
+		btnDisplayMessage.setBounds(206, 84, 89, 23);
+		contentPane.add(btnDisplayMessage);
+	}
+}

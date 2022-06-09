@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="EditorSelectionDialog">
+		<item key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION" value=".java"/>
+		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="false"/>
+		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="org.eclipse.wb.core.guiEditor"/>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ModuleWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.m2e"/>
+		</list>
+	</section>
+</section>

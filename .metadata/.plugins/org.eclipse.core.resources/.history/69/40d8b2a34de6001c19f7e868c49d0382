@@ -1,0 +1,10 @@
+package o04.jdbc.tools;
+
+import java.sql.Connection;
+
+public class DisplayDbValues {
+
+	public static void printPersonne(Connection cnx) {
+
+	}
+}

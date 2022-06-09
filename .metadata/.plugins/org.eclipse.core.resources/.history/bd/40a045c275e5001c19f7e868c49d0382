@@ -1,0 +1,10 @@
+package o01.console.tools;
+
+import java.util.List;
+
+import classes.Product;
+
+public class InitialData {
+
+	public static List<Product> productList;
+}

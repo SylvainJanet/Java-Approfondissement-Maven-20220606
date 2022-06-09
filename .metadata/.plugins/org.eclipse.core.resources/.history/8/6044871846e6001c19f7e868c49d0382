@@ -1,0 +1,83 @@
+package o04.jdbc;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import o04.jdbc.tools.DbConnection;
+
+public class O2CreateRow {
+
+	public static void main(String[] args) {
+
+		// on va commencer par créer une classe utilitaire nous permettant d'établir
+		// une connexion à notre base de données
+		Connection cnx;
+		try {
+			cnx = DbConnection.getConnection();
+
+			/*
+			 *
+			 * Le DriverManager assure la liaison avec le pilote et nous permet d'établir la
+			 * connexion.
+			 * 
+			 * On utilise cette connexion pour transmettre des instructions vers la base.
+			 * Ces requêtes sont exécutées grâce à une interface Statement. Pour les
+			 * requêtes paramétrées : PreparedStatement Pour les procédures stockées :
+			 * CallableStatement
+			 * 
+			 * Les éventuels résultats sont accessible avec un élément ResultSet
+			 * 
+			 */
+
+//			String nom = "DUSAUSSOY";
+//			String prenom = "Mikael";
+//			String age = "32";
+//			String sql = "INSERT INTO personne (nom,prenom,age) VALUES ('"+nom+"','"+prenom+"',"+age+")";
+			
+			// Ne jamais faire les choses comme ça, on peut avoir un problème d'injection SQL
+			// Un utilisateur mal intentionné rentre les informations suivantes : 
+			// age = 45
+			// nom = Truc
+			// prenom = bidule',20) DELETE FROM personne INSERT INTO personne (nom, prenom, age) VALUES ('Hahahaha', 'X
+			
+			// ma chaine de caractères sql sera :
+//			sql = "INSERT INTO personne (nom,prenom,age) VALUES ('Truc','bidule',20) "
+//					+ "DELETE FROM personne " // supprime toutes les lignes de la table
+//					+ "INSERT INTO personne (nom, prenom, age) VALUES ('Hahahaha', 'X',45)";
+			// cas plus pratique d'utilisation d'injection : 
+			// https://www.youtube.com/watch?v=ciNHn38EyRc
+			
+			String nom = "THIERY";
+			String prenom = "Benjamin";
+			int age = 29;
+			
+			String sql = "INSERT INTO personne (nom,prenom,age) VALUES (?,?,?)";
+			
+			PreparedStatement ps = cnx.prepareStatement(sql);
+			ps.setString(1, nom);
+			ps.setString(2, prenom);
+			ps.setInt(3, age);
+			
+			// deux méthodes utiles : executeQuery et executeUpdate
+			// la première retourne des résultat et la seconde n'attend aucune valeur de la DB
+			// executeQuery renvoie le resultSet
+			// executeUpdate renvoie le nombre de lignes modifiées
+			
+			// execute est possible : renvoie un booléen qui indique si un resultSet est envoyé
+			// pour voir l'utilisation : voir la doc de execute
+			ps.ex
+			
+			
+			
+
+			cnx.createStatement().execute(sql);
+
+			cnx.close();
+		} catch (ClassNotFoundException | SQLException | IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+}

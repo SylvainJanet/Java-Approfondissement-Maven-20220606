@@ -1,0 +1,5 @@
+package o04.jdbc.tools;
+
+public class DbConnection {
+
+}

@@ -1,0 +1,4 @@
+user=postgres
+url=jdbc:postgresql://localhost:5432/dbExerciceMaven
+driver=org.postgresql.Driver
+pwd=admin

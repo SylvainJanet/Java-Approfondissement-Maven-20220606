@@ -1,0 +1,21 @@
+package o08.fichiers;
+
+import java.util.List;
+
+import classes.Product;
+
+public class CsvTools {
+
+	public static void toCsv(String filePath, List<Product> list, String separator) {
+		try (new FileWriter(filePath)) {
+			
+		}
+		
+	}
+
+	public static List<Product> fromCsv(String filePath, String separator) {
+
+		return null;
+	}
+
+}

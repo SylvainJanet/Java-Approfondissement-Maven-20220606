@@ -1,0 +1,99 @@
+package o10.maven;
+
+public class App10 {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * 
+		 * Maven est un outil de build qui permet d'automatiser la gestion et la construction d'un
+		 * projet Java
+		 * 
+		 * On peut l'utiliser en ligne de commande mais il est également intégré nativement
+		 * dans STS et dans d'autres IDE.
+		 * 
+		 * Permet d'automatiser (et de paramétrer) :
+		 * - la création d'un projet, avec une structure de dossiers normalisée, commune avec tous les
+		 * projets Maven
+		 * - le lancement des tests
+		 * - le déploiement du projet
+		 * 
+		 * Permet également de gérer les dépendances du projet
+		 * 
+		 * Pour l'instant, une dépendance est rajoutée à la main et dépend de la structure des fichiers
+		 * de notre machine/
+		 * - soucis lorsqu'on doit rajouter plusiers dépendances, notamment lorsqu'il y a de
+		 * l'interdépendance, c'est à dire que ces dépendances dépendent elles-même d'autres dépendances
+		 * On a beaucoup de dépendances à gérer, et les problèmes s'accentuent quand on prend en 
+		 * considération les versions de ces dépendances
+		 * - soucis lors du partage de notre projet. Si les dépendances ne sont pas stockées au même
+		 * endroit dans la machine des collègues, ça va poser problème. Partager les dépendances en
+		 * même temps que le projet n'est pas une bonne solution non plus, on partagerait une quantité
+		 * énorme de fichiers qui ne sont pas le contenu de notre travail.
+		 * 
+		 * La seule chose à configurer pour le fonctionnement de Maven pour un projet est un fichier
+		 * pom.xml : fichier de configuration
+		 * 
+		 * File -> New -> Maven Project
+		 * Cocher la case "skip archetype selection"
+		 * Créer un projet simple
+		 * Modifier le build path, le compilateur pour les mettre à la bonne version du jdk
+		 * Clic droit JRE system library -> Properties -> mettre le bon jdk
+		 * Clic droit projet -> properties -> Java Compiler -> compliance level 1.8
+		 * 
+		 * Les projets Maven ont une structure bien déinie.
+		 * src/main/java : contient les classes Java de notre programme
+		 * src/main/resources : contient toutes les ressources utilisées dans notre programme :
+		 * images, fichiers texte, fichiers de configuration,...
+		 * src/test/java : contient toutes les classes de tests
+		 * src/test/resources : contient toutes les ressources utilisées pour les tests
+		 * target : contient tous les fichiers générés par maven lors des différents traitements
+		 * pom.xml : la configuration du projet
+		 * 
+		 * 
+		 * Principe - dépendances
+		 * 
+		 * Maven va nous permettre de gérer les dépendances.
+		 * Au lieu de télécharger la dépendance et de l'ajouter manuellement au projet, on
+		 * va juste rajouter la dépendance dans le pom.xml de notre projet. 
+		 * 
+		 * Un fichier XSD (Xml Schema Document) permet de garantir la cohérence et la validité
+		 * des informations contenues dans un fichier XML
+		 * 
+		 * Le sens des balises :
+		 * - project : l'élement racine du pom.xml
+		 * - modelVersion : la version du pom utilisée
+		 * - groupId : un identifiant du groupe du projet. Comme un package, un espace de nom
+		 * pour les projets maven
+		 * - artifactId : un identifiant du projet. C'est un nom dans l'espace de nommage
+		 * donné par le groupId
+		 * 
+		 * Un artifact est un projet type, Maven en propose plusieurs : 
+		 * - maven-archetype-simple
+		 * - maven-archetype-quickstart
+		 * 
+		 * File -> New -> Maven Project
+		 * Laisser la case décochée cette fois :
+		 * Chercher l'archetype : maven-archetype-simple et prendre
+		 * celui de org.apache.maven.archetypes
+		 * 
+		 * Faire les opérations habituelles (jre + compiler) + modifier leur version dans le pom.xml
+		 * 
+		 * Le fichier pom.xml hérite d'un super POM (qui contient entre autres des informations sur
+		 * le repo central), on peut voir le POM réel en cliquant sur "effective pom"
+		 * 
+		 * Dépôt : un stockage de dépendance.
+		 * Dépôt local Maven : emplacement sur votre machine où est stocké un ensemble de
+		 * dépendances
+		 * Par défaut : 
+		 * C:\Users\UTILISATEUR\.m2
+		 * Dépot central Maven : emplacement distant depuis lequel Maven va télécharger
+		 * les dépendances
+		 * Repo Maven :  	
+		 */
+		
+
+		
+	}
+
+}

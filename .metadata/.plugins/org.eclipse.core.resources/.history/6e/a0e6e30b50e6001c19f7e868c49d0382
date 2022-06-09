@@ -1,0 +1,10 @@
+package o04.jdbc;
+
+public class O5Delete {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

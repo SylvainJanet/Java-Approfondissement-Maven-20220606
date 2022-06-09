@@ -1,0 +1,5 @@
+# commentaire
+# ensemble de paires clé/valeurs
+url = jdbc:postgresql://localhost:5432/FormationJavaApprofondissement20220606
+user = postgres
+pwd = admin

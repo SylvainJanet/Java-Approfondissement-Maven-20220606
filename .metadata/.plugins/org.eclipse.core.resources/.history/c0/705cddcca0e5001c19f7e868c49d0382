@@ -1,0 +1,5 @@
+package o03.threads.runnable;
+
+public class MyRunnable {
+
+}

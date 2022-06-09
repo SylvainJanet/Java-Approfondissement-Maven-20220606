@@ -1,0 +1,34 @@
+package o04.jdbc;
+
+import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import o04.jdbc.tools.DbConnection;
+import o04.jdbc.tools.DisplayDbValues;
+
+public class O5Delete {
+
+	public static void main(String[] args) {
+		try (Connection cnx = DbConnection.getConnection()) {
+
+			System.out.println("_____ DB before _____");
+			DisplayDbValues.printPersonne(cnx);
+
+			String sql = "DELETE FROM personne WHERE id=?";
+			
+			PreparedStatement ps = cnx.prepareStatement(sql);
+			
+			ps.setLong(1, 18);
+			ps.executeUpdate();
+
+			System.out.println("_____ DB after _____");
+			DisplayDbValues.printPersonne(cnx);
+		} catch (ClassNotFoundException | SQLException | IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package o04.jdbc;
+
+public class O2CreateRow {
+
+	public static void main(String[] args) {
+		
+		// on va commencer par créer une classe utilitaire nous permettant d'établir
+		// une connexion à notre base de données
+		
+	}
+}

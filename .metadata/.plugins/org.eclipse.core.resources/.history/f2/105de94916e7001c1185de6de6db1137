@@ -1,0 +1,17 @@
+package o09.reflexion;
+
+import java.util.List;
+
+public class CsvToolsGen {
+
+	public static <T> void toCsv(String filePath, List<T> productList, String separator) {
+		
+
+	}
+
+	public static <T> List<T> fromCsv(String filePath, String separator) {
+		
+		return null;
+	}
+
+}

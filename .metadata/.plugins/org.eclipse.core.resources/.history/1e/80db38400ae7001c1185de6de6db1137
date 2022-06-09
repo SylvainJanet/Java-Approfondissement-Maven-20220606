@@ -1,0 +1,7 @@
+package o07.genericite.interfacegen;
+
+import classes.Personne;
+
+public interface IPersonneDao extends IGenericDao<Personne> {
+
+}
